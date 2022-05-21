@@ -114,3 +114,309 @@
     flex-direction: column;
   }
 }
+
+
+/*Figma Design Code*/
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700|Press+Start+2P:400|Raleway+Dots:400");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.program {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 5021px;
+  padding: 62px 86px;
+  width: 1440px;
+}
+
+.flex-row {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 60px;
+  margin-right: 5px;
+  min-width: 1175px;
+}
+
+.place {
+  letter-spacing: 0;
+  line-height: 39.6px;
+  min-height: 41px;
+  white-space: nowrap;
+  width: 122px;
+}
+
+.roadmap {
+  letter-spacing: 0;
+  line-height: 39.6px;
+  margin-left: 14px;
+  min-height: 41px;
+  white-space: nowrap;
+  width: 139px;
+}
+
+.faq {
+  letter-spacing: 0;
+  line-height: 39.6px;
+  margin-left: 69px;
+  min-height: 41px;
+  white-space: nowrap;
+  width: 122px;
+}
+
+.twitter {
+  align-self: center;
+  height: 47px;
+  margin-left: 443px;
+  margin-top: 1.35px;
+  width: 51px;
+}
+
+.overlap-group {
+  align-items: flex-end;
+  align-self: flex-end;
+  background-color: var(--black);
+  border: 3px solid var(--white);
+  border-radius: 34px;
+  display: flex;
+  height: 53px;
+  margin-left: 16px;
+  min-width: 199px;
+  padding: 10.5px 14.2px;
+}
+
+.join-our-discord {
+  color: var(--white);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21.1px;
+  min-height: 26px;
+  text-align: center;
+  width: 165px;
+}
+
+.welcome-to {
+  letter-spacing: 4.2px;
+  line-height: 43.8px;
+  margin-left: 32px;
+  margin-top: 80px;
+  min-height: 94px;
+  width: 426px;
+}
+
+.span0 {
+  letter-spacing: 1.26px;
+}
+
+.span1 {
+  color: var(--black);
+  font-family: var(--font-family-press_start_2p);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 1.1px;
+  line-height: 40.9px;
+}
+
+.title {
+  color: var(--black);
+  font-family: var(--font-family-press_start_2p);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+  letter-spacing: 8.4px;
+  line-height: 87.6px;
+  margin-left: 32px;
+  margin-top: 20px;
+  min-height: 126px;
+  width: 703px;
+}
+
+.a-community-of-web3 {
+  letter-spacing: 4.2px;
+  line-height: 43.8px;
+  margin-left: 32px;
+  min-height: 77px;
+  width: 1029px;
+}
+
+.how-it-works {
+  align-self: flex-end;
+  color: var(--black);
+  font-family: var(--font-family-press_start_2p);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  letter-spacing: 7px;
+  line-height: 73px;
+  margin-right: 37px;
+  margin-top: 271px;
+  min-height: 73px;
+  white-space: nowrap;
+  width: 915px;
+}
+
+.overlap-group2 {
+  align-self: flex-end;
+  height: 1712px;
+  margin-top: 79px;
+  position: relative;
+  width: 1244px;
+}
+
+.how-it-works-section {
+  align-items: center;
+  display: flex;
+  height: 1486px;
+  left: 0;
+  min-width: 1209px;
+  position: absolute;
+  top: 17px;
+}
+
+.group-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 1486px;
+  width: 592px;
+}
+
+.group-6 {
+  background-color: var(--white);
+  border-radius: 23px;
+  height: 494px;
+  margin-right: 8px;
+  width: 584px;
+}
+
+.overlap-group1 {
+  height: 818px;
+  margin-left: 8px;
+  margin-top: 174px;
+  position: relative;
+  width: 584px;
+}
+
+.group-7 {
+  background-color: var(--white);
+  border-radius: 23px;
+  height: 494px;
+  left: 0;
+  position: absolute;
+  top: 324px;
+  width: 584px;
+}
+
+.pick-your-level-of-e {
+  -webkit-text-stroke: 1px var(--black);
+  left: 14px;
+  letter-spacing: 4.2px;
+  line-height: 43.8px;
+  position: absolute;
+  top: 0;
+  width: 569px;
+}
+
+.group-8 {
+  background-color: var(--white);
+  border-radius: 23px;
+  height: 494px;
+  margin-bottom: 12px;
+  margin-left: 31px;
+  width: 584px;
+}
+
+.hack-to-earn {
+  left: 42px;
+  letter-spacing: 5.6px;
+  line-height: 58.4px;
+  position: absolute;
+  top: 604px;
+  width: 465px;
+}
+
+.open-governance {
+  color: var(--black);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  left: 665px;
+  letter-spacing: 6.3px;
+  line-height: 65.7px;
+  position: absolute;
+  top: 1056px;
+  white-space: nowrap;
+  width: 579px;
+}
+
+.learn-cybersecurity {
+  left: 665px;
+  letter-spacing: 5.6px;
+  line-height: 58.4px;
+  position: absolute;
+  top: 0;
+  width: 579px;
+}
+
+.collect-more-nft-tok {
+  -webkit-text-stroke: 1px var(--black);
+  left: 664px;
+  letter-spacing: 4.2px;
+  line-height: 43.8px;
+  position: absolute;
+  top: 1131px;
+  width: 565px;
+}
+
+.work-through-the-ser {
+  -webkit-text-stroke: 1px var(--black);
+  left: 665px;
+  letter-spacing: 4.2px;
+  line-height: 43.8px;
+  position: absolute;
+  top: 71px;
+  width: 565px;
+}
+
+.image {
+  height: 90px;
+  left: 240px;
+  position: absolute;
+  top: 1223px;
+  width: 90px;
+}
+
+.image-1 {
+  height: 90px;
+  left: 876px;
+  position: absolute;
+  top: 705px;
+  width: 90px;
+}
+
+.image-2 {
+  height: 90px;
+  left: 255px;
+  position: absolute;
+  top: 207px;
+  width: 90px;
+}
