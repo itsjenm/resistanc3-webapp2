@@ -4,17 +4,20 @@ This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Cours
 
 Video Coming soon...
 
-[Full Repo](https://github.com/smartcontractkit/full-blockchain-solidity-course-js)
+[Full Repo](https://github.com/resistanc3/resistanc3-webapp)
 
 ![App](img/readme-app.png)
 
-[Example App here!](https://fancy-dream-3458.on.fleek.co/)
+[Example App here!]
 [Example App on IPFS here!](ipfs://Qme4KacFx21y6pYuTC6veAU2usryXB3fNWqLkX3a2hMvDe)
 
 Built with ❤️ using:
 NextJS
 Solidity
 Chainlink
+Figment
+Near
+Solidity
 Moralis
 web3uikit
 Ethers
