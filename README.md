@@ -1,6 +1,5 @@
 # Resistanc3-webapp
-
-This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course.
+Growing a community of hackers.
 
 Video Coming soon...
 
@@ -24,7 +23,7 @@ Ethers
 Hardhat
 IPFS
 
-- [NextJS Smartcontract Lottery (Raffle) FCC](#nextjs-smartcontract-lottery-raffle-fcc)
+- [NextJS Smartcontract Game](#nextjs-smartcontract-game)
 - [Getting Started](#getting-started)
   - [Requirements](#requirements)
   - [Quickstart](#quickstart)
@@ -58,7 +57,7 @@ Video coming soon...
 ## Quickstart
 
 ```
-git clone https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
+git clone https://github.com/resistanc3/resistanc3-webapp
 cd hardhat-fund-me-fcc
 yarn
 ```
@@ -102,12 +101,12 @@ yarn hardhat node
 
 2. Add hardhat network to your metamask/wallet
 
-- Get the RPC_URL of your hh node (usually `http://127.0.0.1:8545/`)
-- Go to your wallet and add a new network. [See instructions here.](https://metamask.zendesk.com/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC)
-  - Network Name: Hardhat-Localhost
-  - New RPC URL: http://127.0.0.1:8545/
-  - Chain ID: 31337
-  - Currency Symbol: ETH (or GO)
+- Get the RPC_URL of your hh node (usually `[http://127.0.0.1:8545/](https://near-testnet--rpc.datahub.figment.io/apikey/90cecbe39863a1572c89f43279b34989)`)
+- Go to your wallet and add a new network. 
+  - Network Name: Near Testnet
+  - New RPC URL: https://near-testnet--rpc.datahub.figment.io/apikey/90cecbe39863a1572c89f43279b34989
+  - Chain ID: None
+  - Currency Symbol: Near (or GO)
   - Block Explorer URL: None
 
 Ideally, you'd then [import one of the accounts](https://metamask.zendesk.com/hc/en-us/articles/360015489331-How-to-import-an-Account) from hardhat to your wallet/metamask. 
@@ -177,7 +176,7 @@ yarn lint
 
 If you appreciated this, feel free to follow me or donate!
 
-ETH/Polygon/Avalanche/etc Address: 0x9680201d9c93d65a3603d2088d125e955c73BD65
+ETH/Polygon/Avalanche/etc Address: 0x1e2b43c4603c32877935e0d2e194f599c1ea2f7d
 
 [![Patrick Collins Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/PatrickAlphaC)
 [![Patrick Collins YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
