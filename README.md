@@ -1,4 +1,4 @@
-# NextJS Smartcontract Lottery (Raffle) FCC
+# Resistanc3-webapp
 
 This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course.
 
