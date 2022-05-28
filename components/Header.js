@@ -1,4 +1,6 @@
 import { ConnectButton } from "web3uikit"
+import "../styles/Home.module.css"
+
 
 export default function Header() {
     return (
@@ -47,5 +49,4 @@ export default function Header() {
         </div>
     </nav>
 
-    )
-}
+    )};
